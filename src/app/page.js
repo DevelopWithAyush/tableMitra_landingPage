@@ -19,7 +19,7 @@ export default function Home() {
       <HowItWorks />
       <WhyTableMitra />
       <Features/>
-      {/* <FAQ /> */}
+      <FAQ />
       <CTA />
       <Footer />
     </div>

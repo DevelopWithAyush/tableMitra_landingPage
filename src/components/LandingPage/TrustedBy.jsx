@@ -4,10 +4,10 @@ const TrustedBy = () => {
     return (
         <main className='bg-[#FE5F1E] px-4 sm:px-6 lg:px-10 py-[40px] sm:py-[50px] lg:py-[60px] overflow-hidden relative flex flex-col items-center'>
 
-            <div className='w-[689px] h-[689px] rounded-full bg-white/20 flex flex-col absolute top-[-334px] left-[-385px] items-center justify-center'>
+            <div className='w-[689px] h-[689px] rounded-full bg-white/20 flex flex-col absolute top-[-334px] left-[-385px] items-center justify-center scale-90 sm:scale-95 lg:scale-100'>
                 <div className='w-[400px] h-[400px] rounded-full bg-[#FE5F1E]' />
             </div>
-            <div className='w-[689px] h-[689px] rounded-full bg-white/20 flex flex-col absolute bottom-[-334px] right-[-385px] items-center justify-center'>
+            <div className='w-[689px] h-[689px] rounded-full bg-white/20 flex flex-col absolute bottom-[-334px] right-[-385px] items-center justify-center scale-90 sm:scale-95 lg:scale-100'>
                 <div className='w-[400px] h-[400px] rounded-full bg-[#FE5F1E]' />
             </div>
 

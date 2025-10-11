@@ -101,7 +101,7 @@ const Navbar = () => {
 
   return (
     <>
-      <header className='container mx-auto max-w-[88rem] fixed top-3 sm:top-5 z-[100] left-[50%] translate-x-[-50%] bg-[#fff] px-4 sm:px-6 lg:px-4 py-3 sm:py-4 flex justify-between items-center rounded-[12px] sm:rounded-[16px] border-[1px] border-solid border-[#FFE9E7] shadow-2xs w-[calc(100%-1rem)]  '>
+      <header className='container mx-auto max-w-[88rem] fixed top-3 sm:top-5 z-[100] left-[50%] translate-x-[-50%] bg-[#fff] px-4 sm:px-6 lg:px-3 py-3 sm:py-2 flex justify-between items-center rounded-[12px] sm:rounded-[16px] border-[1px] border-solid border-[#FFE9E7] shadow-2xs w-[calc(100%-1rem)]  '>
 
         <Link href={"/"} className='text-[#FE5F1E] font-plusjakartaSans font-bold text-[20px] sm:text-[24px] z-[102]'>
           TableMitra

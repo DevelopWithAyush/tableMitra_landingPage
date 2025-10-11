@@ -1,0 +1,434 @@
+@import "tailwindcss";
+
+:root {
+  --background: #F8F8F8;
+}
+
+
+
+
+@font-face {
+  font-family: "DMSans";
+  src: url("/fonts/DMSans/DMSans-Thin.ttf") format("opentype");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+} 
+
+@font-face {
+  font-family: "DMSans";
+  src: url("/fonts/DMSans/DMSans-ThinItalic.ttf") format("opentype");
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "DMSans";
+  src: url("/fonts/DMSans/DMSans-ExtraLight.ttf") format("opentype");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "DMSans";
+  src: url("/fonts/DMSans/DMSans-ExtraLightItalic.ttf") format("opentype");
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+} 
+
+@font-face {
+  font-family: "DMSans";
+  src: url("/fonts/DMSans/DMSans-Light.ttf") format("opentype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "DMSans";
+  src: url("/fonts/DMSans/DMSans-LightItalic.ttf") format("opentype");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "DMSans";
+  src: url("/fonts/DMSans/DMSans-Regular.ttf") format("opentype");
+  font-weight: 400;
+  font-style: normal; 
+  font-display: swap;
+} 
+
+@font-face {
+  font-family: "DMSans";
+  src: url("/fonts/DMSans/DMSans-Italic.ttf") format("opentype");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+} 
+
+@font-face {
+  font-family: "DMSans";
+  src: url("/fonts/DMSans/DMSans-Medium.ttf") format("opentype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "DMSans";
+  src: url("/fonts/DMSans/DMSans-MediumItalic.ttf") format("opentype");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+} 
+
+@font-face {
+  font-family: "DMSans";
+  src: url("/fonts/DMSans/DMSans-SemiBold.ttf") format("opentype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+} 
+
+@font-face {
+  font-family: "DMSans";
+  src: url("/fonts/DMSans/DMSans-SemiBoldItalic.ttf") format("opentype");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+} 
+
+@font-face {
+  font-family: "DMSans";
+  src: url("/fonts/DMSans/DMSans-Bold.ttf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+} 
+
+@font-face {
+  font-family: "DMSans";
+  src: url("/fonts/DMSans/DMSans-BoldItalic.ttf") format("opentype");
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+} 
+
+@font-face {
+  font-family: "DMSans";
+  src: url("/fonts/DMSans/DMSans-ExtraBold.ttf") format("opentype");
+  font-weight: 800;
+  font-style: normal; 
+  font-display: swap;
+}  
+
+@font-face {
+  font-family: "DMSans";
+  src: url("/fonts/DMSans/DMSans-ExtraBoldItalic.ttf") format("opentype");
+  font-weight: 800;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "DMSans";
+  src: url("/fonts/DMSans/DMSans-Black.ttf") format("opentype");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "DMSans";
+  src: url("/fonts/DMSans/DMSans-BlackItalic.ttf") format("opentype");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}  
+
+/* Inter */
+
+@font-face {
+  font-family: "Inter";
+  src: url("/fonts/Inter/Inter-Thin.woff2") format("opentype");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+} 
+
+@font-face {
+  font-family: "Inter";
+  src: url("/fonts/Inter/Inter-ThinItalic.woff2") format("opentype");
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("/fonts/Inter/Inter-ExtraLight.woff2") format("opentype");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("/fonts/Inter/Inter-ExtraLightItalic.woff2") format("opentype");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("/fonts/Inter/Inter-Light.woff2") format("opentype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter"; 
+  src: url("/fonts/Inter/Inter-LightItalic.woff2") format("opentype");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("/fonts/Inter/Inter-Regular.woff2") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+} 
+
+@font-face {
+  font-family: "Inter";
+  src: url("/fonts/Inter/Inter-Italic.woff2") format("opentype");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+} 
+
+@font-face {
+  font-family: "Inter";
+  src: url("/fonts/Inter/Inter-Medium.woff2") format("opentype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("/fonts/Inter/Inter-MediumItalic.woff2") format("opentype");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("/fonts/Inter/Inter-SemiBold.woff2") format("opentype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("/fonts/Inter/Inter-SemiBoldItalic.woff2") format("opentype");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("/fonts/Inter/Inter-Bold.woff2") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("/fonts/Inter/Inter-BoldItalic.woff2") format("opentype");
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+} 
+
+@font-face {
+  font-family: "Inter";
+  src: url("/fonts/Inter/Inter-ExtraBold.woff2") format("opentype");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("/fonts/Inter/Inter-ExtraBoldItalic.woff2") format("opentype");
+  font-weight: 800;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("/fonts/Inter/Inter-Black.woff2") format("opentype");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter-BlackItalic";
+  src: url("/fonts/Inter/Inter-BlackItalic.woff2") format("opentype");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+
+/* PLUS JAKARTA SANS  */
+
+
+@font-face {
+  font-family: "PlusJakartaSans";
+  src: url("/fonts/PlusJakartaSans/PlusJakartaSans-ExtraLight.ttf") format("opentype");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PlusJakartaSans";
+  src: url("/fonts/PlusJakartaSans/PlusJakartaSans-ExtraLightItalic.ttf") format("opentype");
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PlusJakartaSans";
+  src: url("/fonts/PlusJakartaSans/PlusJakartaSans-Light.ttf") format("opentype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PlusJakartaSans";
+  src: url("/fonts/PlusJakartaSans/PlusJakartaSans-LightItalic.ttf") format("opentype");
+  font-weight: 300;
+  font-style: italic; 
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PlusJakartaSans";
+  src: url("/fonts/PlusJakartaSans/PlusJakartaSans-Regular.ttf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PlusJakartaSans";
+  src: url("/fonts/PlusJakartaSans/PlusJakartaSans-Italic.ttf") format("opentype");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PlusJakartaSans";
+  src: url("/fonts/PlusJakartaSans/PlusJakartaSans-Medium.ttf") format("opentype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PlusJakartaSans";
+  src: url("/fonts/PlusJakartaSans/PlusJakartaSans-MediumItalic.ttf") format("opentype");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PlusJakartaSans";
+  src: url("/fonts/PlusJakartaSans/PlusJakartaSans-SemiBold.ttf") format("opentype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PlusJakartaSans";
+  src: url("/fonts/PlusJakartaSans/PlusJakartaSans-SemiBoldItalic.ttf") format("opentype");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PlusJakartaSans";
+  src: url("/fonts/PlusJakartaSans/PlusJakartaSans-Bold.ttf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PlusJakartaSans";
+  src: url("/fonts/PlusJakartaSans/PlusJakartaSans-BoldItalic.ttf") format("opentype");
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PlusJakartaSans";
+  src: url("/fonts/PlusJakartaSans/PlusJakartaSans-ExtraBold.ttf") format("opentype");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}  
+
+@font-face {
+  font-family: "PlusJakartaSans";
+  src: url("/fonts/PlusJakartaSans/PlusJakartaSans-ExtraBoldItalic.ttf") format("opentype");
+  font-weight: 800;
+  font-style: italic;
+  font-display: swap;
+} 
+
+:root{
+  --font-dmSans: "DMSans", sans-serif;
+  --font-inter: "Inter",  sans-serif;
+  --font-plusjakartaSans: "PlusJakartaSans", sans-serif;
+}
+
+@theme {
+  /* Maps the utility class 'font-dmSans' to the CSS variable '--font-dmSans' */
+  --font-dmSans: var(--font-dmSans);
+  /* Maps the utility class 'font-inter' to the CSS variable '--font-inter' */
+  --font-inter: var(--font-inter);
+  /* Maps the utility class 'font-plusjakartaSans' to the CSS variable '--font-plusjakartaSans'); */
+  --font-plusjakartaSans: var(--font-plusjakartaSans);
+} 
+
+
+body{
+  background-color: var(--background);
+}

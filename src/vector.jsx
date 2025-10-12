@@ -906,4 +906,62 @@ export const WhyTableStandOut = () => {
         </svg>
 
     )
-}
+} 
+
+
+export const orderIcon = (
+     
+        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="35" viewBox="0 0 28 35" fill="none">
+            <path d="M6.6875 20.5625V2.75C6.6875 2.43506 6.81261 2.13301 7.03531 1.91031C7.25801 1.68761 7.56006 1.5625 7.875 1.5625H22.125C22.4399 1.5625 22.742 1.68761 22.9647 1.91031C23.1874 2.13301 23.3125 2.43506 23.3125 2.75V26.5C23.3125 26.8149 23.1874 27.117 22.9647 27.3397C22.742 27.5624 22.4399 27.6875 22.125 27.6875H9.0625M15 5.125V6.3125M6.6875 5.125H4.15575C3.86964 5.12504 3.59316 5.22838 3.37717 5.41602C3.16117 5.60365 3.02018 5.86296 2.98012 6.14625L0.761875 21.6669L0.75 21.8331V30.6135C0.750101 30.8091 0.798498 31.0016 0.890892 31.1739C0.983286 31.3463 1.11682 31.4932 1.27963 31.6015L4.01325 33.4255C4.20808 33.5554 4.43696 33.6248 4.67113 33.625H11.8911C12.1115 33.625 12.3275 33.5637 12.515 33.4479C12.7025 33.3321 12.854 33.1665 12.9528 32.9695L14.9145 29.0484C14.9711 28.9343 15.0457 28.83 15.1354 28.7396L16.1875 27.6875M23.3125 8.6875H24.7612C25.0261 8.68757 25.2834 8.77621 25.4921 8.93931C25.7008 9.10241 25.849 9.33061 25.9131 9.58763L26.5069 11.9626C26.5505 12.1376 26.5537 12.3203 26.5163 12.4967C26.4788 12.6732 26.4016 12.8388 26.2906 12.9809C26.1795 13.1231 26.0376 13.2381 25.8755 13.3172C25.7134 13.3963 25.5354 13.4375 25.355 13.4375H24.5C24.1851 13.4375 23.883 13.5626 23.6603 13.7853C23.4376 14.008 23.3125 14.3101 23.3125 14.625V15.8125C23.3125 16.1274 23.4376 16.4295 23.6603 16.6522C23.883 16.8749 24.1851 17 24.5 17H25.6875C26.0024 17 26.3045 17.1251 26.5272 17.3478C26.7499 17.5705 26.875 17.8726 26.875 18.1875V19.375C26.875 19.6899 26.7499 19.992 26.5272 20.2147C26.3045 20.4374 26.0024 20.5625 25.6875 20.5625H23.3125M5.5 21.75L10.5967 16.6533C10.7071 16.5427 10.8381 16.4549 10.9824 16.3951C11.1266 16.3352 11.2813 16.3044 11.4375 16.3044C11.5937 16.3044 11.7484 16.3352 11.8926 16.3951C12.0369 16.4549 12.1679 16.5427 12.2783 16.6533L14.2732 18.6483C14.4749 18.8504 14.5969 19.1185 14.617 19.4033C14.637 19.6882 14.5538 19.9707 14.3825 20.1991L8.1125 28.5591C7.95834 28.7647 7.875 29.0147 7.875 29.2716V32.4375M10.25 19.375L11.4375 20.5625M17.375 9.875C17.375 9.24511 17.1248 8.64102 16.6794 8.19562C16.234 7.75022 15.6299 7.5 15 7.5C14.3701 7.5 13.766 7.75022 13.3206 8.19562C12.8752 8.64102 12.625 9.24511 12.625 9.875M10.25 11.0625H19.75" stroke="black" stroke-width="1.5" />
+        </svg>
+    )
+
+
+
+
+export const QrIcon  =( 
+    
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                    <path d="M7 3H4C3.44772 3 3 3.44772 3 4V7C3 7.55228 3.44772 8 4 8H7C7.55228 8 8 7.55228 8 7V4C8 3.44772 7.55228 3 7 3Z" stroke="#0A0A0A" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                    <path d="M20 3H17C16.4477 3 16 3.44772 16 4V7C16 7.55228 16.4477 8 17 8H20C20.5523 8 21 7.55228 21 7V4C21 3.44772 20.5523 3 20 3Z" stroke="#0A0A0A" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                    <path d="M7 16H4C3.44772 16 3 16.4477 3 17V20C3 20.5523 3.44772 21 4 21H7C7.55228 21 8 20.5523 8 20V17C8 16.4477 7.55228 16 7 16Z" stroke="#0A0A0A" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                    <path d="M21 16H18C17.4696 16 16.9609 16.2107 16.5858 16.5858C16.2107 16.9609 16 17.4696 16 18V21" stroke="#0A0A0A" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                    <path d="M21 21V21.01" stroke="#0A0A0A" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                    <path d="M12 7V10C12 10.5304 11.7893 11.0391 11.4142 11.4142C11.0391 11.7893 10.5304 12 10 12H7" stroke="#0A0A0A" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                    <path d="M3 12H3.01" stroke="#0A0A0A" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                    <path d="M12 3H12.01" stroke="#0A0A0A" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                    <path d="M12 16V16.01" stroke="#0A0A0A" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                    <path d="M16 12H17" stroke="#0A0A0A" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                    <path d="M21 12V12.01" stroke="#0A0A0A" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                    <path d="M12 21V20" stroke="#0A0A0A" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                </svg>
+            
+    )
+
+export const report = (
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
+        <path d="M3 3.5V21.5H21" stroke="#0A0A0A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        <path d="M18 17.5V9.5" stroke="#0A0A0A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        <path d="M13 17.5V5.5" stroke="#0A0A0A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        <path d="M8 17.5V14.5" stroke="#0A0A0A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+    </svg>
+) 
+
+export const housekeepingIcon = (
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
+        <path d="M16 21.5V19.5C16 18.4391 15.5786 17.4217 14.8284 16.6716C14.0783 15.9214 13.0609 15.5 12 15.5H6C4.93913 15.5 3.92172 15.9214 3.17157 16.6716C2.42143 17.4217 2 18.4391 2 19.5V21.5" stroke="#0A0A0A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        <path d="M9 11.5C11.2091 11.5 13 9.70914 13 7.5C13 5.29086 11.2091 3.5 9 3.5C6.79086 3.5 5 5.29086 5 7.5C5 9.70914 6.79086 11.5 9 11.5Z" stroke="#0A0A0A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        <path d="M22 21.4999V19.4999C21.9993 18.6136 21.7044 17.7527 21.1614 17.0522C20.6184 16.3517 19.8581 15.8515 19 15.6299" stroke="#0A0A0A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        <path d="M16 3.62988C16.8604 3.85018 17.623 4.35058 18.1676 5.05219C18.7122 5.7538 19.0078 6.61671 19.0078 7.50488C19.0078 8.39305 18.7122 9.25596 18.1676 9.95757C17.623 10.6592 16.8604 11.1596 16 11.3799" stroke="#0A0A0A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+    </svg>
+) 
+
+
+export const laundryIcon = (    
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
+  <path d="M14 21.5V19.5C14 18.4391 13.5786 17.4217 12.8284 16.6716C12.0783 15.9214 11.0609 15.5 10 15.5H4C2.93913 15.5 1.92172 15.9214 1.17157 16.6716C0.421429 17.4217 0 18.4391 0 19.5V21.5" stroke="#0A0A0A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M7 11.5C9.20914 11.5 11 9.70914 11 7.5C11 5.29086 9.20914 3.5 7 3.5C4.79086 3.5 3 5.29086 3 7.5C3 9.70914 4.79086 11.5 7 11.5Z" stroke="#0A0A0A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M20 21.4999V19.4999C20.0007 18.6136 19.7058 17.7527 19.1628 17.0522C18.6198 16.3517 17.8595 15.8515 17 15.6299" stroke="#0A0A0A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M14 3.62988C14.8604 3.85018 15.623 4.35058 16.1676 5.05219C16.7122 5.7538 17.0078 6.61671 17.0078 7.50488C17.0078 8.39305 16.7122 9.25596 16.1676 9.95757C15.623 10.6592 14.8604 11.1596 14 11.3799" stroke="#0A0A0A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+) 

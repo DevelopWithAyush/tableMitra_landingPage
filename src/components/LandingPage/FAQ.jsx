@@ -10,6 +10,41 @@ const FAQ = () => {
         setOpenIndex(openIndex === index ? null : index)
     }
 
+    const faqs = [
+        {
+            question: "Will my guests have to download an app?",
+            answer: "No. Guests just scan a QR with their phone camera - no app, no login. Everything opens in their browser, just like ordering food online."
+        },
+        {
+            question: "Will my guests even use this?",
+            answer: "They already do - everywhere else. From restaurants to airports, scanning a QR has become second nature. When it makes their stay easier, they love it."
+        },
+        {
+            question: "My staff isn't great with technology. Will they manage?",
+            answer: "Absolutely. If they can read a WhatsApp message, they can use TableMitra. It's designed for hotels, not engineers."
+        },
+        {
+            question: "How long does it take to set up?",
+            answer: "Usually less than 48 hours. We help you create the QRs, train your staff, and get your hotel live without disturbing daily operations."
+        },
+        {
+            question: "How will this help if my hotel is small?",
+            answer: "That's where it helps the most. When one person is handling multiple things, a system that organizes requests saves time - and mistakes."
+        },
+        {
+            question: "Do I need to change my current process completely?",
+            answer: "Not at all. You'll just replace phone calls with QR requests. Everything else - your kitchen, staff, billing - stays the same."
+        },
+        {
+            question: "What if something breaks or stops working?",
+            answer: "We're one call or message away. Our support team helps instantly - no long tickets or waiting."
+        },
+        {
+            question: "Can I try it before paying anything?",
+            answer: "Absolutely. You get a full 30-day free trial - no credit card, no hidden charges. See how TableMitra fits into your hotel, track real requests, and experience the difference yourself. If you love it, great - keep going. If not, you can walk away, no questions asked."
+        }
+    ]
+
     return (
         <section id='faq' className='container mx-auto max-w-[88rem] grid grid-cols-12 gap-x-0 lg:gap-x-[60px] gap-y-8 lg:gap-y-0 pt-[70px] sm:pt-[100px] lg:pt-[150px] px-4 sm:px-6 lg:px-8'>
             <div className='col-span-12 lg:col-span-4 flex flex-col items-start justify-between gap-y-8'>
@@ -63,13 +98,16 @@ const FAQ = () => {
                 </div>
             </div>
             <div className='col-span-12 lg:col-span-8 w-full flex flex-col items-start justify-start gap-y-3 sm:gap-y-4'>
-                <FAQCard index={0} isOpen={openIndex === 0} toggleFAQ={toggleFAQ} title="What is TableMitra?" description="TableMitra is a platform that helps you automate your restaurant operations." />
-                <FAQCard index={1} isOpen={openIndex === 1} toggleFAQ={toggleFAQ} title="What is TableMitra?" description="TableMitra is a platform that helps you automate your restaurant operations." />
-                <FAQCard index={2} isOpen={openIndex === 2} toggleFAQ={toggleFAQ} title="What is TableMitra?" description="TableMitra is a platform that helps you automate your restaurant operations." />
-                <FAQCard index={3} isOpen={openIndex === 3} toggleFAQ={toggleFAQ} title="What is TableMitra?" description="TableMitra is a platform that helps you automate your restaurant operations." />
-                <FAQCard index={4} isOpen={openIndex === 4} toggleFAQ={toggleFAQ} title="What is TableMitra?" description="TableMitra is a platform that helps you automate your restaurant operations." />
-                <FAQCard index={5} isOpen={openIndex === 5} toggleFAQ={toggleFAQ} title="What is TableMitra?" description="TableMitra is a platform that helps you automate your restaurant operations." />
-                <FAQCard index={6} isOpen={openIndex === 6} toggleFAQ={toggleFAQ} title="What is TableMitra?" description="TableMitra is a platform that helps you automate your restaurant operations." />
+                {faqs.map((faq, index) => (
+                    <FAQCard
+                        key={index}
+                        index={index}
+                        isOpen={openIndex === index}
+                        toggleFAQ={toggleFAQ}
+                        title={faq.question}
+                        description={faq.answer}
+                    />
+                ))}
             </div>
 
             <div className='col-span-12 lg:hidden flex flex-col items-center justify-start gap-y-[24px] sm:gap-y-[30px] p-6 sm:p-8 bg-[#FFE7DD] rounded-[12px] sm:rounded-[16px] w-full'>

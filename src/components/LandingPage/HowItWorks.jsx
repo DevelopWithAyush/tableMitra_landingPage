@@ -3,39 +3,39 @@ import React from 'react'
 const HowItWorks = () => {
 
     const cardData = [
-
         {
             number: 1,
-            title: 'Admin generates QR sets',
-            description: "Create printable QR codes for each table with unique identifiers"
+            title: 'The Landline Bottleneck',
+            description: "Every request starts with a call. Guests wait, notes get missed, and time is lost - leaving them frustrated."
         },
         {
             number: 2,
-            title: 'Easy Onboarding',
-            description: "QR setup and staff onboarding done for you."
+            title: 'Guests Expect Simplicity',
+            description: "Travelers are used to one-tap actions. Asking them to call reception feels slow and outdated."
         },
         {
             number: 3,
-            title: 'Guest Scans and Places Request',
-            description: "Guests access all services with one scan, no app required."
+            title: 'Staff Always Catching Up',
+            description: "Front desk, housekeeping, kitchen - all juggling unclear calls. Everyone’s busy, yet behind."
         },
         {
             number: 4,
-            title: 'Smart Routing System',
-            description: "Orders and requests auto-route to the right department."
+            title: 'Losing to Food Apps',
+            description: "If ordering through apps is faster than calling, guests switch - and your revenue slips away."
         },
         {
             number: 5,
-            title: 'Manager Dashboard',
-            description: "Track live service times, missed SLAs, and request patterns."
+            title: 'No Visibility, No Control',
+            description: "You can’t see who’s waiting or delayed. Without visibility, small issues grow into bad reviews."
         },
-    ]
+    ];
+
     return (
         <section id='howitworks' className='container mx-auto max-w-[88rem] grid grid-cols-1 lg:grid-cols-2 gap-y-8 lg:gap-y-0 pt-[70px] sm:pt-[100px] lg:pt-[150px] px-4 sm:px-6 lg:px-8'>
 
             <div className='col-span-1'>
                 <h1 className='font-dmSans font-semibold leading-[1.2] text-balance text-[32px] sm:text-[36px] lg:text-[38px] max-w-full lg:max-w-[604px]'>
-                    How TableMitra's Automation Works for Hotels
+                    Why the Way Hotels Operate Today Is Holding Them Back
                 </h1>
                 <p className='text-[16px] font-inter sm:text-[18px] text-[#4D4D4D] max-w-full lg:max-w-[604px] mt-3 sm:mt-[14px]'>
                     Streamlining service delivery across departments in flow with tap-to-order convenience for your guests and complete visibility for your staff.
@@ -89,9 +89,10 @@ const Card = ({
     return (
 
         <div className='px-4 sm:px-5 py-5 sm:py-6 flex flex-row items-start justify-start gap-x-4 sm:gap-x-5 bg-[#FFF] rounded-[12px] shadow-sm w-full'>
-            <div className='px-3 py-2 aspect-square rounded-full bg-[#FE5F1E] flex items-center justify-center text-[12px] sm:text-[16px] font-inter font-bold text-[#FFF] flex-shrink-0'>
+            <div className="aspect-square min-w-6 sm:min-w-8 flex items-center justify-center rounded-full bg-[#FE5F1E] text-[12px] sm:text-[16px] font-inter font-bold text-white">
                 {number}
             </div>
+
             <div className='flex flex-col items-start justify-start gap-2 sm:gap-3'>
                 <p className='text-[20px] sm:text-[22px] lg:text-[24px] text-[#0A0A0A] font-dmSans font-medium leading-[1.25]'>
                     {title}

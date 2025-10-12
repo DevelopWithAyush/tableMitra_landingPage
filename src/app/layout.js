@@ -1,5 +1,6 @@
 import Navbar from "@/components/Common/Navbar";
 import "./globals.css";
+import Footer from "@/components/Common/Footer";
 
 export const metadata = {
   title: "TableMitra India - Hotel Management System | QR Code Ordering for Indian Hotels",
@@ -140,6 +141,7 @@ export default function RootLayout({ children }) {
       <body className="relative">
         <Navbar />
         {children}
+        <Footer />
       </body>
     </html>
   );

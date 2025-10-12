@@ -7,7 +7,7 @@ import HowItWorks from "@/components/LandingPage/HowItWorks";
 import TrustedBy from "@/components/LandingPage/TrustedBy";
 import WhyTableMitra from "@/components/LandingPage/WhyTableMitra";
 import CTA from "@/components/LandingPage/CTA";
-import Footer from "@/components/LandingPage/Footer";
+import Footer from "@/components/Common/Footer";
 
 export default function Home() {
   return (
@@ -21,7 +21,7 @@ export default function Home() {
       <Features/>
       <FAQ />
       <CTA />
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }

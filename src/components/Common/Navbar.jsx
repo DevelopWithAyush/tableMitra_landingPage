@@ -7,6 +7,8 @@ import { motion, AnimatePresence } from 'framer-motion'
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   const [isMobile, setIsMobile] = useState(false)
+  const [isVisible, setIsVisible] = useState(true)
+  const [lastScrollY, setLastScrollY] = useState(0)
 
   useEffect(() => {
     const checkMobile = () => {
@@ -28,6 +30,26 @@ const Navbar = () => {
       document.body.style.overflow = 'unset'
     }
   }, [isMenuOpen])
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const currentScrollY = window.scrollY
+
+      if (currentScrollY < 50) {
+        setIsVisible(true)
+      } else if (currentScrollY > lastScrollY && currentScrollY > 100) {
+        setIsVisible(false)
+        setIsMenuOpen(false)
+      } else if (currentScrollY < lastScrollY) {
+        setIsVisible(true)
+      }
+
+      setLastScrollY(currentScrollY)
+    }
+
+    window.addEventListener('scroll', handleScroll, { passive: true })
+    return () => window.removeEventListener('scroll', handleScroll)
+  }, [lastScrollY])
 
   const Links = [
     {
@@ -101,7 +123,20 @@ const Navbar = () => {
 
   return (
     <>
-      <header className='container mx-auto max-w-[88rem] fixed top-3 sm:top-5 z-[100] left-[50%] translate-x-[-50%] bg-[#fff] px-4 sm:px-6 lg:px-3 py-3 sm:py-2 flex justify-between items-center rounded-[12px] sm:rounded-[16px] border-[1px] border-solid border-[#FFE9E7] shadow-2xs w-[calc(100%-1rem)]  '>
+      <motion.header
+        className='container mx-auto max-w-[88rem] fixed top-3 sm:top-5 z-[100] left-[50%] translate-x-[-50%] bg-[#fff] px-4 sm:px-6 lg:px-3 py-3 sm:py-2 flex justify-between items-center rounded-[12px] sm:rounded-[16px] border-[1px] border-solid border-[#FFE9E7] shadow-2xs w-[calc(100%-1rem)]'
+        initial={{ y: 0, opacity: 1 }}
+        animate={{
+          y: isVisible ? 0 : -100,
+          opacity: isVisible ? 1 : 0
+        }}
+        transition={{
+          type: 'spring',
+          stiffness: 300,
+          damping: 30,
+          mass: 0.8
+        }}
+      >
 
         <Link href={"/"} className='text-[#FE5F1E] font-plusjakartaSans font-bold text-[20px] sm:text-[24px] z-[102]'>
           TableMitra
@@ -156,7 +191,7 @@ const Navbar = () => {
             transition={{ type: 'spring', stiffness: 300, damping: 20 }}
           />
         </motion.button>
-      </header>
+      </motion.header>
 
       <AnimatePresence>
         {isMenuOpen && (

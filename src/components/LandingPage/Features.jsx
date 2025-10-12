@@ -44,7 +44,7 @@ const Features = () => {
     ]
 
     return (
-        <section className='container mx-auto max-w-[88rem] flex flex-col items-center justify-start gap-y-[40px] sm:gap-y-[50px] lg:gap-y-[60px] px-4 sm:px-6 lg:px-8'>
+        <section id='features' className='container mx-auto max-w-[88rem] flex flex-col items-center justify-start gap-y-[40px] sm:gap-y-[50px] lg:gap-y-[60px] px-4 sm:px-6 lg:px-8 pt-[70px] sm:pt-[100px] lg:pt-[150px]'>
 
             <div className='flex flex-col items-center justify-start gap-[10px] sm:gap-[14px]'>
                 <h1 className='text-[32px] sm:text-[36px] lg:text-[38px] text-[#0A0A0A] leading-[1.2] font-dmSans font-semibold text-center tracking-tight px-2'>

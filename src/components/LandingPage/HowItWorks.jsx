@@ -31,7 +31,7 @@ const HowItWorks = () => {
         },
     ]
     return (
-        <section className='container mx-auto max-w-[88rem] grid grid-cols-1 lg:grid-cols-2 gap-y-8 lg:gap-y-0 mt-[70px] sm:mt-[100px] lg:mt-[150px] px-4 sm:px-6 lg:px-8'>
+        <section id='howitworks' className='container mx-auto max-w-[88rem] grid grid-cols-1 lg:grid-cols-2 gap-y-8 lg:gap-y-0 pt-[70px] sm:pt-[100px] lg:pt-[150px] px-4 sm:px-6 lg:px-8'>
 
             <div className='col-span-1'>
                 <h1 className='font-dmSans font-semibold leading-[1.2] text-balance text-[32px] sm:text-[36px] lg:text-[38px] max-w-full lg:max-w-[604px]'>

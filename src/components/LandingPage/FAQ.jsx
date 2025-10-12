@@ -11,7 +11,7 @@ const FAQ = () => {
     }
 
     return (
-        <section className='container mx-auto max-w-[88rem] grid grid-cols-12 gap-x-0 lg:gap-x-[60px] gap-y-8 lg:gap-y-0 mt-[70px] sm:mt-[100px] lg:mt-[150px] px-4 sm:px-6 lg:px-8'>
+        <section id='faq' className='container mx-auto max-w-[88rem] grid grid-cols-12 gap-x-0 lg:gap-x-[60px] gap-y-8 lg:gap-y-0 pt-[70px] sm:pt-[100px] lg:pt-[150px] px-4 sm:px-6 lg:px-8'>
             <div className='col-span-12 lg:col-span-4 flex flex-col items-start justify-between gap-y-8'>
                 <div className='flex flex-col items-start justify-start gap-y-2 sm:gap-y-3'>
                     <h1 className='text-[32px] sm:text-[36px] lg:text-[38px] font-dmSans font-semibold leading-[1.2] text-balance text-[#0A0A0A]'>

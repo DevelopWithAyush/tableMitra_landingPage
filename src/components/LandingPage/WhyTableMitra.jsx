@@ -22,7 +22,7 @@ const WhyTableMitra = () => {
         },
     ]
     return (
-        <section className='container max-w-[88rem] mx-auto py-[70px] sm:py-[100px] lg:py-[150px] px-4 sm:px-6 lg:px-8 flex flex-col items-center justify-start gap-y-[40px] sm:gap-y-[50px] lg:gap-y-[60px]'>
+        <section className='container max-w-[88rem] mx-auto pt-[70px] sm:pt-[100px] lg:pt-[150px] px-4 sm:px-6 lg:px-8 flex flex-col items-center justify-start gap-y-[40px] sm:gap-y-[50px] lg:gap-y-[60px]'>
             <div className='flex flex-col items-center justify-center gap-y-[10px] sm:gap-y-[14px]'>
                 <h1 className='text-[32px] sm:text-[36px] lg:text-[38px] font-dmSans font-semibold text-[#0A0A0A] text-center leading-[1.2]'>
                     Why TableMitra Stands Out

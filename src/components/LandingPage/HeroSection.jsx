@@ -8,9 +8,10 @@ const HeroSection = () => {
             <section className='w-full lg:w-auto flex flex-col'>
                 <div className=''>
                     <h1 className='text-[42px] sm:text-[52px] lg:text-[64px] text-[#0A0A0A] font-dmSans font-medium leading-[1.15] tracking-tight'>
-                        Smart QR Tech for
+                        Increase in-room dining.
+                        Save time. Serve smarter.
                     </h1>
-                    <div className='flex flex-row items-center flex-wrap'>
+                    {/* <div className='flex flex-row items-center flex-wrap'>
                         <h1 className='text-[42px] sm:text-[52px] lg:text-[64px] text-[#0A0A0A] font-dmSans font-medium leading-[1.15] tracking-tight'>
                             Modern
                         </h1>
@@ -28,7 +29,7 @@ const HeroSection = () => {
                         <h1 className='text-[42px] sm:text-[52px] lg:text-[64px] text-[#0A0A0A] font-dmSans font-medium leading-[1.15] tracking-tight'>
                             Hospitality
                         </h1>
-                    </div>
+                    </div> */}
                 </div>
                 <p className='text-[#4D4D4D] font-inter text-[16px] sm:text-[18px] mt-4 sm:mt-[14px] max-w-full lg:max-w-[582px]'>
                     Digitise your entire in-room service flow and deliver faster.In Room Dining . Housekeeping . Laundry

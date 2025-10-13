@@ -1271,4 +1271,4 @@ export const notFound = () => {
         </svg>
 
     )
-}
+}     

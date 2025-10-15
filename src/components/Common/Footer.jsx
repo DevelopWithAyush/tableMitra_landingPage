@@ -93,7 +93,7 @@ const Footer = () => {
                                     Get started with TableMitra today and revolutionize your hotel operations.
                                 </p>
                                 <Link
-                                    href={getSmartLink("#contact-us")}
+                                    href={"https://forms.gle/Hk1ym8o3ZZPD8rvL8"}
                                     className='inline-block bg-[#FE5F1E] hover:bg-[#E54E0E] text-white font-plusjakartaSans font-semibold text-[14px] px-6 py-3 rounded-xl transition-colors duration-300'
                                 >
                                     Get Started

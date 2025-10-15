@@ -3,12 +3,14 @@
 import Link from 'next/link'
 import React, { useState, useEffect } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
+import { usePathname } from 'next/navigation'
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   const [isMobile, setIsMobile] = useState(false)
   const [isVisible, setIsVisible] = useState(true)
   const [lastScrollY, setLastScrollY] = useState(0)
+  const pathname = usePathname()
 
   useEffect(() => {
     const checkMobile = () => {
@@ -54,21 +56,27 @@ const Navbar = () => {
   const Links = [
     {
       name: "Features",
-      href: "#features"
+      hash: "#features"
     },
     {
       name: "Why TableMitra",
-      href: "#why-tablemitra"
+      hash: "#why-tablemitra"
     },
     {
       name: "FAQ",
-      href: "#faq"
+      hash: "#faq"
     },
     {
       name: "Contact Us",
-      href: "#contact-us"
+      hash: "#contact-us"
     }
   ]
+
+  // Smart link function that works from any page
+  const getSmartLink = (hash) => {
+    const isHomePage = pathname === '/'
+    return isHomePage ? hash : `/${hash}`
+  }
 
   const handleLinkClick = () => {
     if (isMobile) {
@@ -151,7 +159,7 @@ const Navbar = () => {
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
               >
-                <Link href={link.href}>
+                <Link href={getSmartLink(link.hash)}>
                   {link.name}
                 </Link>
               </motion.li>
@@ -223,7 +231,7 @@ const Navbar = () => {
                       animate="open"
                       className='text-[16px] text-[#666] hover:text-[#000] font-inter font-medium border-b border-[#FFE9E7] pb-3 last:border-b-0'
                     >
-                      <Link href={link.href} onClick={handleLinkClick}>
+                      <Link href={getSmartLink(link.hash)} onClick={handleLinkClick}>
                         {link.name}
                       </Link>
                     </motion.li>

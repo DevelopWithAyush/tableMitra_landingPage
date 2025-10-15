@@ -1,20 +1,29 @@
+"use client"
 import Link from 'next/link'
 import React from 'react'
+import { usePathname } from 'next/navigation'
 
 const Footer = () => {
     const currentYear = new Date().getFullYear()
+    const pathname = usePathname()
 
     const navigationLinks = [
-        { name: "Features", href: "#features" },
-        { name: "How it works", href: "#howitworks" },
-        { name: "FAQ", href: "#faq" },
-        { name: "Contact Us", href: "#contact-us" }
+        { name: "Features", hash: "#features" },
+        { name: "Why TableMitra", hash: "#why-tablemitra" },
+        { name: "FAQ", hash: "#faq" },
+        { name: "Contact Us", hash: "#contact-us" }
     ]
+
+    // Smart link function that works from any page
+    const getSmartLink = (hash) => {
+        const isHomePage = pathname === '/'
+        return isHomePage ? hash : `/${hash}`
+    }
 
     const legalLinks = [
         { name: "Privacy Policy", href: "/privacy-policy" },
         { name: "Terms of Service", href: "/terms-of-service" },
-      
+
     ]
 
     return (
@@ -50,7 +59,7 @@ const Footer = () => {
                                 {navigationLinks.map((link) => (
                                     <Link
                                         key={link.name}
-                                        href={link.href}
+                                        href={getSmartLink(link.hash)}
                                         className='text-[#CCCCCC] hover:text-[#FE5F1E] font-inter text-[14px] sm:text-[16px] transition-colors duration-300'
                                     >
                                         {link.name}
@@ -84,7 +93,7 @@ const Footer = () => {
                                     Get started with TableMitra today and revolutionize your hotel operations.
                                 </p>
                                 <Link
-                                    href="#contact-us"
+                                    href={getSmartLink("#contact-us")}
                                     className='inline-block bg-[#FE5F1E] hover:bg-[#E54E0E] text-white font-plusjakartaSans font-semibold text-[14px] px-6 py-3 rounded-xl transition-colors duration-300'
                                 >
                                     Get Started

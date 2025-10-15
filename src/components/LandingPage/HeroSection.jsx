@@ -1,4 +1,5 @@
 import { HeroSectionSVG } from '@/vector'
+import Link from 'next/link'
 import React from 'react'
 
 const HeroSection = () => {
@@ -7,31 +8,12 @@ const HeroSection = () => {
 
             <section className='w-full lg:w-auto flex flex-col'>
                 <div className=''>
-                    <h1 className='text-[42px] sm:text-[52px] lg:text-[64px] text-[#0A0A0A] font-dmSans font-medium leading-[1.15] tracking-tight'>
+                    <h1 className='text-[42px] sm:text-[52px] lg:text-[64px] text-[#0A0A0A] font-dmSans font-medium leading-[1.15] tracking-tight text-balance'>
                         Increase in-room dining.
                         Save time. Serve smarter.
                     </h1>
-                    {/* <div className='flex flex-row items-center flex-wrap'>
-                        <h1 className='text-[42px] sm:text-[52px] lg:text-[64px] text-[#0A0A0A] font-dmSans font-medium leading-[1.15] tracking-tight'>
-                            Modern
-                        </h1>
-                        <div className='flex flex-row items-center pl-2 sm:pl-3 relative left-1 sm:left-2'>
-                            <div className='w-8 h-8 sm:w-10 sm:h-10 lg:w-12 lg:h-12 rounded-full border border-solid border-[#FE5F1E] relative left-0 overflow-hidden'>
-                                <img src="/images/hero01.png" alt="customer image" className='w-full h-full object-cover' />
-                            </div>
-                            <div className='w-8 h-8 sm:w-10 sm:h-10 lg:w-12 lg:h-12 rounded-full border border-solid border-[#FE5F1E] relative right-3 sm:right-4 overflow-hidden'>
-                                <img src="/images/hero02.png" alt="customer image" className='w-full h-full object-cover' />
-                            </div>
-                            <div className='w-8 h-8 sm:w-10 sm:h-10 lg:w-12 lg:h-12 rounded-full border border-solid border-[#FE5F1E] relative right-5 sm:right-6 overflow-hidden'>
-                                <img src="/images/hero03.png" alt="customer image" className='w-full h-full object-cover' />
-                            </div>
-                        </div>
-                        <h1 className='text-[42px] sm:text-[52px] lg:text-[64px] text-[#0A0A0A] font-dmSans font-medium leading-[1.15] tracking-tight'>
-                            Hospitality
-                        </h1>
-                    </div> */}
                 </div>
-                <p className='text-[#4D4D4D] font-inter text-[16px] sm:text-[18px] mt-4 sm:mt-[14px] max-w-full lg:max-w-[582px]'>
+                <p className='text-[#4D4D4D] font-inter text-[16px] sm:text-[18px] mt-4 sm:mt-[14px] max-w-full lg:max-w-[582px] text-balance'>
                     Digitise your entire in-room service flow and deliver faster.In Room Dining . Housekeeping . Laundry
                 </p>
 
@@ -39,9 +21,9 @@ const HeroSection = () => {
                     <button className='text-[#fff] font-inter text-[14px] sm:text-[16px] font-semibold text-center bg-[#FE5F1E] rounded-[12px] py-[12px] sm:py-[14px] px-4 sm:px-6 whitespace-nowrap'>
                         Let's Talk
                     </button>
-                    <button className='text-[#FE5F1E] font-inter text-[14px] sm:text-[16px] font-semibold text-center border border-solid border-[#FE5F1E] rounded-[12px] py-[12px] sm:py-[14px] px-4 sm:px-6 whitespace-nowrap'>
-                        See How it Works
-                    </button>
+                    <Link href="#why-tablemitra" className='text-[#FE5F1E] font-inter text-[14px] sm:text-[16px] font-semibold text-center border border-solid border-[#FE5F1E] rounded-[12px] py-[12px] sm:py-[14px] px-4 sm:px-6 whitespace-nowrap'>
+                        Why TableMitra
+                    </Link>
                 </div>
                 <div className='hidden lg:flex flex-row items-center justify-start mt-6 lg:mt-8 gap-x-4 sm:gap-x-6 flex-wrap gap-y-3'>
                     <div className='flex flex-row items-center justify-between gap-2'>
@@ -71,9 +53,9 @@ const HeroSection = () => {
                     <button className='text-[#fff] font-inter cursor-pointer text-[14px] sm:text-[16px] font-semibold text-center bg-[#FE5F1E] rounded-[12px] py-[12px] sm:py-[14px] px-4 sm:px-6 whitespace-nowrap'>
                         Let's Talk
                     </button>
-                    <button className='text-[#FE5F1E] font-inter cursor-pointer text-[14px] sm:text-[16px] font-semibold text-center border border-solid border-[#FE5F1E] rounded-[12px] py-[12px] sm:py-[14px] px-4 sm:px-6 whitespace-nowrap'>
-                        See How it Works
-                    </button>
+                    <Link href="#why-tablemitra" className='text-[#FE5F1E] font-inter cursor-pointer text-[14px] sm:text-[16px] font-semibold text-center border border-solid border-[#FE5F1E] rounded-[12px] py-[12px] sm:py-[14px] px-4 sm:px-6 whitespace-nowrap'>
+                        Why TableMitra
+                    </Link>
                 </div>
                 <div className='flex flex-row items-center justify-start mt-6 sm:mt-8 gap-x-4 sm:gap-x-6 flex-wrap gap-y-3'>
                     <div className='flex flex-row items-center justify-between gap-2'>

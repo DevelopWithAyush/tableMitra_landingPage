@@ -17,11 +17,10 @@ const CTA = () => {
 
 
                     <h1 className='text-[32px] sm:text-[36px] lg:text-[38px] leading-[1.2] text-[#FFF] font-dmSans font-semibold text-center px-2'>
-                        Ready to fill tables on weekdays?
+                        Ready to run your hotel smarter?
                     </h1>
                     <p className='text-[16px] sm:text-[18px] font-inter text-[#FFF] leading-[1.4] max-w-full sm:max-w-[582px] text-center px-2 font-normal'>
-                        Join hundreds of cafes already boosting their Tuesday–Thursday sales with our QR technology. Book your demo call today and see the transformation in action.
-                    </p>
+Bring automation, speed, and transparency to your hotel’s service operations. Book your demo call today and see the transformation in action.                    </p>
                 </div>
                 <div className='flex flex-col sm:flex-row items-center gap-y-3 sm:gap-y-0 sm:gap-x-4 lg:gap-x-6 mt-6 sm:mt-8 lg:mt-10 w-full sm:w-auto'>
                     <button className='text-[#FE5F1E] font-inter text-[14px] sm:text-[16px] font-semibold text-center bg-[#FFF] rounded-[12px] py-[12px] sm:py-[14px] px-5 sm:px-6 w-full sm:w-auto whitespace-nowrap hover:bg-[#FFF]/90 transition-colors'>

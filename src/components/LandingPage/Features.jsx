@@ -12,7 +12,7 @@ const Features = () => {
         },
         {
             title: "In-Room Food Ordering",
-            desc: "Guests explore your live menu, customize dishes, and order instantly. Orders go straight to the kitchen-no delays, no mix-ups. Update prices, photos, or combos anytime in seconds.",
+            desc: "Guests explore your live menu, customize dishes, and order instantly. Orders go straight to the kitchen-no delays, no mix-ups. Update prices, photos, or items anytime in seconds.",
             icon: orderIcon,
             tags: ["Live Menu", "Instant Orders", "Digital Menu"],
             image: "/images/Container01.png"
@@ -48,7 +48,7 @@ const Features = () => {
                     Powerful Features to Simplify Hotel Operations
                 </h1>
                 <p className='text-[16px] sm:text-[18px] font-inter max-w-full sm:max-w-[764px] text-[#4D4D4D] text-center text-balance px-2'>
-                    From in-room dining to housekeeping, manage all guest requests through one seamless system designed for modern hotels.
+                    Replace manual call handling with instant, trackable service requests. Leverage one QR platform to manage requests, reduce delays, and deliver services faster.ê
                 </p>
             </div>
 
@@ -83,7 +83,7 @@ const Card = ({
 }) => {
 
     return (
-        <div className={`flex overflow-hidden flex-col-reverse ${isReverse ? "lg:flex-row-reverse lg:pr-6" : "lg:flex-row lg:pl-6"} gap-8 sm:gap-12 lg:gap-[60px] border-[2px] border-solid border-[#FFE7DD] rounded-[12px] sm:rounded-[16px] justify-start bg-[#FFF]`}>
+        <div className={`flex overflow-hidden flex-col-reverse ${isReverse ? "lg:flex-row-reverse lg:pr-6" : "lg:flex-row lg:pl-6"}  sm:gap-12 lg:gap-[60px] border-[2px] border-solid border-[#FFE7DD] rounded-[12px] sm:rounded-[16px] justify-start bg-[#FFF]`}>
             <div className='py-6 sm:py-8 lg:py-[38px] px-4 sm:px-6 lg:px-0 flex flex-col items-start justify-start w-full lg:w-1/2'>
                 <div className='flex flex-row items-start gap-x-4 sm:gap-x-6'>
                     <div className='p-[6px] sm:p-[7px] rounded-[10px] sm:rounded-[12px] border-solid border-[2px] border-[#0A0A0A] flex-shrink-0'>
@@ -107,7 +107,7 @@ const Card = ({
                 </div>
             </div>
             <div className={`flex w-full lg:w-1/2 ${isReverse ? "lg:justify-start" : "lg:justify-end"} flex-row items-center`}>
-                <div className='w-full h-full min-h-[300px]'>
+                <div className='w-full h-full  sm:min-h-[300px]'>
                     <img src={image} alt="" className='w-full h-full object-cover' />
                 </div>
             </div>

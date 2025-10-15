@@ -7,21 +7,21 @@ import HowItWorks from "@/components/LandingPage/HowItWorks";
 import TrustedBy from "@/components/LandingPage/TrustedBy";
 import WhyTableMitra from "@/components/LandingPage/WhyTableMitra";
 import CTA from "@/components/LandingPage/CTA";
-import Footer from "@/components/Common/Footer";
+
 
 export default function Home() {
   return (
     <div className="  text-[40px]">
-      
-      
+
+
       <HeroSection />
-      <TrustedBy/>
+      <TrustedBy />
       <HowItWorks />
       <WhyTableMitra />
-      <Features/>
+      <Features />
       <FAQ />
       <CTA />
-      {/* <Footer /> */}
+   
     </div>
   );
 }

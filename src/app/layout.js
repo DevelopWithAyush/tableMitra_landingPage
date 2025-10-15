@@ -76,9 +76,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <link rel="icon" href="/favicon.png" sizes="any" />
-        <link rel="icon" href="/favicon.ico" sizes="any" />
-        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+        <link rel="icon" href="/images/favicon.png" sizes="any" />
+        <link rel="icon" href="/images/favicon.ico" sizes="any" />
+        <link rel="apple-touch-icon" href="/images/apple-touch-icon.png" />
         <link rel="manifest" href="/manifest.json" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="theme-color" content="#FE5F1E" />

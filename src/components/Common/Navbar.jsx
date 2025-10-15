@@ -57,8 +57,8 @@ const Navbar = () => {
       href: "#features"
     },
     {
-      name: "How it works",
-      href: "#howitworks"
+      name: "Why TableMitra",
+      href: "#why-tablemitra"
     },
     {
       name: "FAQ",

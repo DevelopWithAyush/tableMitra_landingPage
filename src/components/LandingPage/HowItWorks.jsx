@@ -38,7 +38,7 @@ const HowItWorks = () => {
                     Why the Way Hotels Operate Today Is Holding Them Back
                 </h1>
                 <p className='text-[16px] font-inter sm:text-[18px] text-[#4D4D4D] max-w-full lg:max-w-[604px] mt-3 sm:mt-[14px]'>
-                    Streamlining service delivery across departments in flow with tap-to-order convenience for your guests and complete visibility for your staff.
+                    Manual coordination and landline workflows are limiting how hotels operate today. In a world built for speed, calls are slowing everything down.
                 </p>
                 <div className='hidden lg:flex flex-row items-center gap-x-6 mt-10'>
                     <button className='text-[#fff] cursor-pointer font-inter text-[16px] font-semibold text-center bg-[#FE5F1E] rounded-[12px] py-[14px] px-6'>

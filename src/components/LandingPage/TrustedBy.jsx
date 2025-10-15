@@ -26,8 +26,15 @@ const TrustedBy = () => {
                                 <path d="M24.6965 1.54974L30.8748 2.57832L29.8463 8.75889" stroke="#0A0A0A" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                             </svg>
                         }
-                        number={"60%"}
-                        desc={"Calls Decrease in First 1 Month"}
+                        number={
+                          "60%" 
+                        }
+                        desc={
+                            <span>
+                                Call Decrease
+                                in 1<sup>st</sup> Month
+                            </span>
+                        }
                     />
                     <Card
 

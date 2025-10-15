@@ -221,7 +221,7 @@ const Navbar = () => {
               exit="closed"
             >
               <nav>
-                <ul className='flex flex-col gap-4'>
+                <ul className='flex flex-col gap-4 w-full'>
                   {Links.map((link, i) => (
                     <motion.li
                       key={link.name}
@@ -229,9 +229,9 @@ const Navbar = () => {
                       variants={menuItemVariants}
                       initial="closed"
                       animate="open"
-                      className='text-[16px] text-[#666] hover:text-[#000] font-inter font-medium border-b border-[#FFE9E7] pb-3 last:border-b-0'
+                      className='text-[16px] text-[#666] hover:text-[#000] w-full font-inter font-medium border-b border-[#FFE9E7] pb-3 last:border-b-0'
                     >
-                      <Link href={getSmartLink(link.hash)} onClick={handleLinkClick}>
+                      <Link href={getSmartLink(link.hash)} onClick={handleLinkClick} className='w-full'>
                         {link.name}
                       </Link>
                     </motion.li>
@@ -246,7 +246,7 @@ const Navbar = () => {
                   className='mt-6 pt-4 border-t border-[#FFE9E7]'
                 >
                   <Link
-                    href={"/login"}
+                    href={"https://forms.gle/Hk1ym8o3ZZPD8rvL8"}
                     className='text-[#FE5F1E] font-plusjakartaSans font-bold text-[16px] border border-solid px-6 py-3 rounded-xl border-[#FE5F1E] inline-block w-full text-center'
                     onClick={handleLinkClick}
                   >

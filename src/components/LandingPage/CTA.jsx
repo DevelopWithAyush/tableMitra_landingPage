@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 
 const CTA = () => {
@@ -23,12 +24,12 @@ const CTA = () => {
 Bring automation, speed, and transparency to your hotel’s service operations. Book your demo call today and see the transformation in action.                    </p>
                 </div>
                 <div className='flex flex-col sm:flex-row items-center gap-y-3 sm:gap-y-0 sm:gap-x-4 lg:gap-x-6 mt-6 sm:mt-8 lg:mt-10 w-full sm:w-auto'>
-                    <button className='text-[#FE5F1E] font-inter text-[14px] sm:text-[16px] font-semibold text-center bg-[#FFF] rounded-[12px] py-[12px] sm:py-[14px] px-5 sm:px-6 w-full sm:w-auto whitespace-nowrap hover:bg-[#FFF]/90 transition-colors'>
+                    <Link href={"https://forms.gle/Hk1ym8o3ZZPD8rvL8"} className='text-[#FE5F1E] font-inter text-[14px] sm:text-[16px] font-semibold text-center bg-[#FFF] rounded-[12px] py-[12px] sm:py-[14px] px-5 sm:px-6 w-full sm:w-auto whitespace-nowrap hover:bg-[#FFF]/90 transition-colors'>
                         Let's Talk
-                    </button>
-                    <button className='text-[#FFF] font-inter text-[14px] sm:text-[16px] font-semibold text-center border-[2px] border-solid border-[#fff] rounded-[12px] py-[12px] sm:py-[14px] px-5 sm:px-6 w-full sm:w-auto whitespace-nowrap hover:bg-white/10 transition-colors'>
+                    </Link>
+                    <Link href={"https://wa.me/919625971756?text=Hi%2C%20I%E2%80%99m%20interested%20in%20your%20hotel%20digital%20services.%20Please%20share%20more%20details."} className='text-[#FFF] font-inter text-[14px] sm:text-[16px] font-semibold text-center border-[2px] border-solid border-[#fff] rounded-[12px] py-[12px] sm:py-[14px] px-5 sm:px-6 w-full sm:w-auto whitespace-nowrap hover:bg-white/10 transition-colors'>
                         Contact Sales Team
-                    </button>
+                    </Link>
                 </div>
 
             </div>

@@ -18,9 +18,9 @@ const HeroSection = () => {
                 </p>
 
                 <div className='hidden lg:flex flex-row items-center gap-x-3 sm:gap-x-4 lg:gap-x-6 mt-8 lg:mt-10'>
-                    <button className='text-[#fff] font-inter text-[14px] sm:text-[16px] font-semibold text-center bg-[#FE5F1E] rounded-[12px] py-[12px] sm:py-[14px] px-4 sm:px-6 whitespace-nowrap'>
+                    <Link href={"https://forms.gle/Hk1ym8o3ZZPD8rvL8"} className='text-[#fff] font-inter text-[14px] sm:text-[16px] font-semibold text-center bg-[#FE5F1E] rounded-[12px] py-[12px] sm:py-[14px] px-4 sm:px-6 whitespace-nowrap'>  
                         Let's Talk
-                    </button>
+                    </Link>
                     <Link href="#why-tablemitra" className='text-[#FE5F1E] font-inter text-[14px] sm:text-[16px] font-semibold text-center border border-solid border-[#FE5F1E] rounded-[12px] py-[12px] sm:py-[14px] px-4 sm:px-6 whitespace-nowrap'>
                         Why TableMitra
                     </Link>
@@ -50,9 +50,9 @@ const HeroSection = () => {
 
             <div className='w-full flex flex-col items-center justify-center lg:hidden order-3 lg:order-2'>
                 <div className='flex flex-row items-center gap-x-3 sm:gap-x-4 lg:gap-x-6 mt-0'>
-                    <button className='text-[#fff] font-inter cursor-pointer text-[14px] sm:text-[16px] font-semibold text-center bg-[#FE5F1E] rounded-[12px] py-[12px] sm:py-[14px] px-4 sm:px-6 whitespace-nowrap'>
+                    <Link href={"https://forms.gle/Hk1ym8o3ZZPD8rvL8"} className='text-[#fff] font-inter cursor-pointer text-[14px] sm:text-[16px] font-semibold text-center bg-[#FE5F1E] rounded-[12px] py-[12px] sm:py-[14px] px-4 sm:px-6 whitespace-nowrap'>  
                         Let's Talk
-                    </button>
+                    </Link>
                     <Link href="#why-tablemitra" className='text-[#FE5F1E] font-inter cursor-pointer text-[14px] sm:text-[16px] font-semibold text-center border border-solid border-[#FE5F1E] rounded-[12px] py-[12px] sm:py-[14px] px-4 sm:px-6 whitespace-nowrap'>
                         Why TableMitra
                     </Link>

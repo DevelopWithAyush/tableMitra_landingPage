@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react'
 
 const HowItWorks = () => {
@@ -41,12 +42,12 @@ const HowItWorks = () => {
                     Manual coordination and landline workflows are limiting how hotels operate today. In a world built for speed, calls are slowing everything down.
                 </p>
                 <div className='hidden lg:flex flex-row items-center gap-x-6 mt-10'>
-                    <button className='text-[#fff] cursor-pointer font-inter text-[16px] font-semibold text-center bg-[#FE5F1E] rounded-[12px] py-[14px] px-6'>
+                    <Link href={"https://forms.gle/Hk1ym8o3ZZPD8rvL8"} className='text-[#fff] cursor-pointer font-inter text-[16px] font-semibold text-center bg-[#FE5F1E] rounded-[12px] py-[14px] px-6'>
                         Let's Talk
-                    </button>
-                    <button className='text-[#FE5F1E] cursor-pointer font-inter text-[16px] font-semibold text-center border border-solid border-[#FE5F1E] rounded-[12px] py-[14px] px-6'>
-                        See How it Works
-                    </button>
+                    </Link>
+                    <Link href="#why-tablemitra" className='text-[#FE5F1E] cursor-pointer font-inter text-[16px] font-semibold text-center border border-solid border-[#FE5F1E] rounded-[12px] py-[14px] px-6'>
+                        Why TableMitra
+                    </Link>
                 </div>
             </div>
 

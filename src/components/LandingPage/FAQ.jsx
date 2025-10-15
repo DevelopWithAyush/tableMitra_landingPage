@@ -144,7 +144,7 @@ const FAQ = () => {
                         Book a demo call and we'll answer all your questions while showing you the system in action
                     </p>
                     <button className='w-full font-plusjakartaSans font-bold text-[14px] sm:text-[16px] border border-solid px-4 py-3 rounded-xl bg-[#FE5F1E] text-[#fff] mt-5 sm:mt-6 hover:bg-[#E54E0E] transition-colors'>
-                        <Link href={"/contact"}>
+                        <Link href={"https://wa.me/918187653794?text=Hi%20Team%20TableMitra%2C%20I%20have%20a%20few%20questions%20about%20your%20hotel%20service%20system."}>
                             Ask a Question
                         </Link>
                     </button>

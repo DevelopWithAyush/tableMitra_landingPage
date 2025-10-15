@@ -117,10 +117,14 @@ export default function RootLayout({ children }) {
                 },
                 "contactPoint": {
                   "@type": "ContactPoint",
-                  "email": "ayush@tablemitra.in",
+                  "email": "ayush@tablemitra.com",
                   "contactType": "customer service",
                   "availableLanguage": ["English", "Hindi"]
-                }
+                },
+                "sameAs": [
+                  "https://tablemitra.com/privacy-policy",
+                  "https://tablemitra.com/terms-of-service"
+                ]
               },
               "aggregateRating": {
                 "@type": "AggregateRating",

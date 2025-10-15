@@ -43,4 +43,18 @@
     <priority>0.6</priority>
   </url>
   
+  <url>
+    <loc>https://tablemitra.com/privacy-policy</loc>
+    <lastmod>2024-01-15</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  
+  <url>
+    <loc>https://tablemitra.com/terms-of-service</loc>
+    <lastmod>2024-01-15</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  
 </urlset>

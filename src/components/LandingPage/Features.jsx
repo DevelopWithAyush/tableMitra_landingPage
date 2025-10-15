@@ -7,7 +7,7 @@ const Features = () => {
             title: "One System, Multiple Operations",
             desc: "In-room dining, housekeeping, laundry, or spa - guests access it all with a single scan. No separate apps, no repeated calls. Every request is logged, routed, and tracked from one dashboard.",
             icon: QrIcon,
-            tags: ["In Room Dining", "Housekeeping", "Laundry"],
+            tags: ["In Room Dining", "Housekeeping", "Laundry", "In Room Dining", "Housekeeping", "Laundry"],
             image: "/images/Container.png"
         },
         {
@@ -48,7 +48,7 @@ const Features = () => {
                     Powerful Features to Simplify Hotel Operations
                 </h1>
                 <p className='text-[16px] sm:text-[18px] font-inter max-w-full sm:max-w-[764px] text-[#4D4D4D] text-center text-balance px-2'>
-                    Replace manual call handling with instant, trackable service requests. Leverage one QR platform to manage requests, reduce delays, and deliver services faster.ê
+                    Replace manual call handling with instant, trackable service requests. Leverage one QR platform to manage requests, reduce delays, and deliver services faster.
                 </p>
             </div>
 
@@ -98,12 +98,23 @@ const Card = ({
                         </p>
                     </div>
                 </div>
-                <div className='flex flex-row items-center justify-start gap-x-[8px] sm:gap-x-[10px] bg-[#FFE7DD] py-3 sm:py-4 px-2 sm:px-3 rounded-[8px] sm:rounded-[10px] mt-8 sm:mt-12 lg:mt-[70px] w-full flex-wrap gap-y-2'>
-                    {tags.map((tag, index) => (
-                        <p key={index} className='py-2 sm:py-3 px-4 sm:px-6 bg-[#FFF] rounded-[100px] text-[#1A1A1A] font-inter text-[12px] sm:text-[14px] font-normal'>
-                            {tag}
-                        </p>
-                    ))}
+                <div className='bg-[#FFE7DD] py-3 sm:py-4 px-2 sm:px-3 rounded-[8px] sm:rounded-[10px] mt-8 sm:mt-12 lg:mt-[70px] w-full overflow-hidden relative'>
+                    <div
+                        className='flex flex-row items-center gap-x-[8px] sm:gap-x-[10px] overflow-x-auto max-w-[calc(100vw-100px)] sm:max-w-[calc(100vw-140px)] lg:max-w-[calc(100vw-180px)] hide-scrollbar'
+                        style={{
+                            scrollbarWidth: 'none',
+                            msOverflowStyle: 'none'
+                        }}
+                    >
+                        {tags.map((tag, index) => (
+                            <span key={index} className='py-2 sm:py-3 px-4 sm:px-6 bg-[#FFF] rounded-[100px] text-[#1A1A1A] font-inter text-[12px] sm:text-[14px] font-normal whitespace-nowrap flex-shrink-0'>
+                                {tag}
+                            </span>
+                        ))}
+                    </div>
+                    {/* Gradient fade indicator */}
+                    <div className='absolute right-0 top-0 bottom-0 w-20 bg-gradient-to-l from-[#FFE7DD] to-transparent pointer-events-none'></div>
+                    <div className='absolute left-0 top-0 bottom-0 w-20 bg-gradient-to-r from-[#FFE7DD] to-transparent pointer-events-none'></div>
                 </div>
             </div>
             <div className={`flex w-full lg:w-1/2 ${isReverse ? "lg:justify-start" : "lg:justify-end"} flex-row items-center`}>

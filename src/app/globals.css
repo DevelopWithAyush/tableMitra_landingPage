@@ -13,7 +13,7 @@
   font-weight: 100;
   font-style: normal;
   font-display: swap;
-} 
+}
 
 @font-face {
   font-family: "DMSans";
@@ -37,7 +37,7 @@
   font-weight: 200;
   font-style: italic;
   font-display: swap;
-} 
+}
 
 @font-face {
   font-family: "DMSans";
@@ -59,9 +59,9 @@
   font-family: "DMSans";
   src: url("/fonts/DMSans/DMSans-Regular.ttf") format("opentype");
   font-weight: 400;
-  font-style: normal; 
+  font-style: normal;
   font-display: swap;
-} 
+}
 
 @font-face {
   font-family: "DMSans";
@@ -69,7 +69,7 @@
   font-weight: 400;
   font-style: italic;
   font-display: swap;
-} 
+}
 
 @font-face {
   font-family: "DMSans";
@@ -85,7 +85,7 @@
   font-weight: 500;
   font-style: italic;
   font-display: swap;
-} 
+}
 
 @font-face {
   font-family: "DMSans";
@@ -93,7 +93,7 @@
   font-weight: 600;
   font-style: normal;
   font-display: swap;
-} 
+}
 
 @font-face {
   font-family: "DMSans";
@@ -101,7 +101,7 @@
   font-weight: 600;
   font-style: italic;
   font-display: swap;
-} 
+}
 
 @font-face {
   font-family: "DMSans";
@@ -109,7 +109,7 @@
   font-weight: 700;
   font-style: normal;
   font-display: swap;
-} 
+}
 
 @font-face {
   font-family: "DMSans";
@@ -117,15 +117,15 @@
   font-weight: 700;
   font-style: italic;
   font-display: swap;
-} 
+}
 
 @font-face {
   font-family: "DMSans";
   src: url("/fonts/DMSans/DMSans-ExtraBold.ttf") format("opentype");
   font-weight: 800;
-  font-style: normal; 
+  font-style: normal;
   font-display: swap;
-}  
+}
 
 @font-face {
   font-family: "DMSans";
@@ -149,7 +149,7 @@
   font-weight: 900;
   font-style: italic;
   font-display: swap;
-}  
+}
 
 /* Inter */
 
@@ -159,7 +159,7 @@
   font-weight: 100;
   font-style: normal;
   font-display: swap;
-} 
+}
 
 @font-face {
   font-family: "Inter";
@@ -194,7 +194,7 @@
 }
 
 @font-face {
-  font-family: "Inter"; 
+  font-family: "Inter";
   src: url("/fonts/Inter/Inter-LightItalic.woff2") format("opentype");
   font-weight: 300;
   font-style: italic;
@@ -207,7 +207,7 @@
   font-weight: 400;
   font-style: normal;
   font-display: swap;
-} 
+}
 
 @font-face {
   font-family: "Inter";
@@ -215,7 +215,7 @@
   font-weight: 400;
   font-style: italic;
   font-display: swap;
-} 
+}
 
 @font-face {
   font-family: "Inter";
@@ -263,7 +263,7 @@
   font-weight: 700;
   font-style: italic;
   font-display: swap;
-} 
+}
 
 @font-face {
   font-family: "Inter";
@@ -329,7 +329,7 @@
   font-family: "PlusJakartaSans";
   src: url("/fonts/PlusJakartaSans/PlusJakartaSans-LightItalic.ttf") format("opentype");
   font-weight: 300;
-  font-style: italic; 
+  font-style: italic;
   font-display: swap;
 }
 
@@ -403,7 +403,7 @@
   font-weight: 800;
   font-style: normal;
   font-display: swap;
-}  
+}
 
 @font-face {
   font-family: "PlusJakartaSans";
@@ -411,11 +411,11 @@
   font-weight: 800;
   font-style: italic;
   font-display: swap;
-} 
+}
 
-:root{
+:root {
   --font-dmSans: "DMSans", sans-serif;
-  --font-inter: "Inter",  sans-serif;
+  --font-inter: "Inter", sans-serif;
   --font-plusjakartaSans: "PlusJakartaSans", sans-serif;
 }
 
@@ -426,13 +426,31 @@
   --font-inter: var(--font-inter);
   /* Maps the utility class 'font-plusjakartaSans' to the CSS variable '--font-plusjakartaSans'); */
   --font-plusjakartaSans: var(--font-plusjakartaSans);
-} 
+}
 
-html{
+html {
   scroll-behavior: smooth;
 }
 
-body{
+body {
   background-color: var(--background);
 
+}
+
+/* Hide scrollbar for horizontal scroll */
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  /* Internet Explorer 10+ */
+  scrollbar-width: none;
+  /* Firefox */
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+  /* Safari and Chrome */
+}
+
+/* Additional webkit scrollbar hiding */
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
 }

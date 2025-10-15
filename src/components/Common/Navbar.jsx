@@ -172,7 +172,7 @@ const Navbar = () => {
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
         >
-          <Link href={"/login"} className='text-[#FE5F1E] font-plusjakartaSans font-bold text-[16px] border border-solid px-4 py-3 rounded-xl border-[#FE5F1E] inline-block'>
+          <Link href={"https://forms.gle/Hk1ym8o3ZZPD8rvL8"} className='text-[#FE5F1E] font-plusjakartaSans font-bold text-[16px] border border-solid px-4 py-3 rounded-xl border-[#FE5F1E] inline-block'>
             Get Quote
           </Link>
         </motion.button>

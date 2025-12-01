@@ -35,9 +35,9 @@ const HowItWorks = () => {
         <section id='howitworks' className='container mx-auto max-w-[88rem] grid grid-cols-1 lg:grid-cols-2 gap-y-8 lg:gap-y-0 pt-[70px] sm:pt-[100px] lg:pt-[150px] px-4 sm:px-6 lg:px-8'>
 
             <div className='col-span-1'>
-                <h1 className='font-dmSans font-semibold leading-[1.2] text-balance text-[32px] sm:text-[36px] lg:text-[38px] max-w-full lg:max-w-[604px]'>
+                <h2 className='font-dmSans font-semibold leading-[1.2] text-balance text-[32px] sm:text-[36px] lg:text-[38px] max-w-full lg:max-w-[604px]'>
                     Why the Way Hotels Operate Today Is Holding Them Back
-                </h1>
+                </h2>
                 <p className='text-[16px] font-inter sm:text-[18px] text-[#4D4D4D] max-w-full lg:max-w-[604px] mt-3 sm:mt-[14px]'>
                     Manual coordination and landline workflows are limiting how hotels operate today. In a world built for speed, calls are slowing everything down.
                 </p>

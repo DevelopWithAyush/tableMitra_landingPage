@@ -14,9 +14,9 @@ const TrustedBy = () => {
 
             <div className='container mx-auto max-w-[88rem] flex flex-col items-center gap-y-[24px] sm:gap-y-[30px] lg:gap-y-[36px] z-50'>
 
-                <h1 className='text-[32px] sm:text-[36px] lg:text-[38px] text-[#FFF] font-dmSans font-semibold text-center leading-[1.2] px-2'>
+                <h2 className='text-[32px] sm:text-[36px] lg:text-[38px] text-[#FFF] font-dmSans font-semibold text-center leading-[1.2] px-2'>
                     Trusted by Hotels nationwide
-                </h1>
+                </h2>
                 <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-stretch justify-between gap-4 sm:gap-6 lg:gap-[36px] w-full'>
                     <Card
                         SVG={

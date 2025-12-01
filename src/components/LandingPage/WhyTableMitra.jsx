@@ -24,9 +24,9 @@ const WhyTableMitra = () => {
     return (
         <section id='why-tablemitra' className='container max-w-[88rem] mx-auto pt-[70px] sm:pt-[100px] lg:pt-[150px] px-4 sm:px-6 lg:px-8 flex flex-col items-center justify-start gap-y-[40px] sm:gap-y-[50px] lg:gap-y-[60px]'>
             <div className='flex flex-col items-center justify-center gap-y-[10px] sm:gap-y-[14px]'>
-                <h1 className='text-[32px] sm:text-[36px] lg:text-[38px] font-dmSans font-semibold text-[#0A0A0A] text-center leading-[1.2]'>
+                <h2 className='text-[32px] sm:text-[36px] lg:text-[38px] font-dmSans font-semibold text-[#0A0A0A] text-center leading-[1.2]'>
                     Why TableMitra Stands Out
-                </h1>
+                </h2>
                 <p className='text-[#4D4D4D] font-inter text-[16px] sm:text-[18px] font-normal text-center max-w-full sm:max-w-[586px] px-2'>
                     Smart solutions for modern hotels. Designed to enhance service, optimize staff performance, and increase revenue.
                 </p>

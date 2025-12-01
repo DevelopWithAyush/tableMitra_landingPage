@@ -17,9 +17,9 @@ const CTA = () => {
                 <div className='flex flex-col items-center gap-y-[10px] sm:gap-y-[14px]'>
 
 
-                    <h1 className='text-[32px] sm:text-[36px] lg:text-[38px] leading-[1.2] text-[#FFF] font-dmSans font-semibold text-center px-2'>
+                    <h2 className='text-[32px] sm:text-[36px] lg:text-[38px] leading-[1.2] text-[#FFF] font-dmSans font-semibold text-center px-2'>
                         Ready to run your hotel smarter?
-                    </h1>
+                    </h2>
                     <p className='text-[16px] sm:text-[18px] font-inter text-[#FFF] leading-[1.4] max-w-full sm:max-w-[582px] text-center px-2 font-normal'>
 Bring automation, speed, and transparency to your hotel’s service operations. Book your demo call today and see the transformation in action.                    </p>
                 </div>

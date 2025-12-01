@@ -3,8 +3,8 @@ import "./globals.css";
 import Footer from "@/components/Common/Footer";
 
 export const metadata = {
-  title: "TableMitra India - Hotel Management System | QR Code Ordering for Indian Hotels",
-  description: "India's leading hotel management system. Streamline operations for Indian hotels with QR-based service management. Manage in-room dining, housekeeping, laundry, and spa services. Available in Hindi & English.",
+  title: "TableMitra – Hotel Management System India | QR Code Ordering & In-Room Dining Software",
+  description: "TableMitra is India’s leading hotel management system for in-room dining, housekeeping, and guest services. Enable QR-code ordering, automate service requests, and streamline hotel operations in minutes. Trusted by hotels across India.",
   icons: {
     icon: '/images/favicon.png',
   },
@@ -25,26 +25,24 @@ export const metadata = {
   },
   openGraph: {
     type: 'website',
-    locale: 'en_IN',
     url: 'https://tablemitra.com',
-    siteName: 'TableMitra India',
-    title: 'TableMitra India - Hotel Management System',
-    description: 'India\'s leading hotel management system with QR-based service management. Streamline operations for Indian hotels.',
+    title: 'TableMitra – Hotel Management System India',
+    description: 'QR-based hotel service management, in-room dining, housekeeping automation.',
     images: [
       {
-        url: '/images/favicon.png',
+        url: 'https://tablemitra.com/images/og-tablemitra.png',
         width: 1200,
         height: 630,
-        alt: 'TableMitra India Hotel Management System',
-      },
-    ],
+      }
+    ]
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'TableMitra India - Hotel Management System',
-    description: 'India\'s leading hotel management system with QR-based service management.',
-    images: ['https://www.tablemitra.com/images/favicon.png'],
+    site: '@tablemitra_india',
     creator: '@tablemitra_india',
+    title: 'TableMitra – Hotel Management System India',
+    description: 'India’s leading QR-based hotel management and in-room dining system.',
+    images: ['https://tablemitra.com/images/og-tablemitra.png']
   },
   alternates: {
     canonical: 'https://tablemitra.com',

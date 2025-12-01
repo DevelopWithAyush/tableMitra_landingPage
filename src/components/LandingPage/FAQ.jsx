@@ -49,9 +49,9 @@ const FAQ = () => {
         <section id='faq' className='container mx-auto max-w-[88rem] grid grid-cols-12 gap-x-0 lg:gap-x-[60px] gap-y-8 lg:gap-y-0 pt-[70px] sm:pt-[100px] lg:pt-[150px] px-4 sm:px-6 lg:px-8'>
             <div className='col-span-12 lg:col-span-4 flex flex-col items-start justify-between gap-y-8'>
                 <div className='flex flex-col items-start justify-start gap-y-2 sm:gap-y-3'>
-                    <h1 className='text-[32px] sm:text-[36px] lg:text-[38px] font-dmSans font-semibold leading-[1.2] text-balance text-[#0A0A0A]'>
+                    <h2 className='text-[32px] sm:text-[36px] lg:text-[38px] font-dmSans font-semibold leading-[1.2] text-balance text-[#0A0A0A]'>
                         Frequently Asked Questions
-                    </h1>
+                    </h2>
                     <p className='text-[16px] sm:text-[18px] font-inter text-[#4D4D4D] leading-[1.4] max-w-full lg:max-w-[582px]'>
                         Get answers to common questions about TableMitra's automation features.
                     </p>

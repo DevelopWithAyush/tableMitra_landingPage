@@ -43,7 +43,7 @@ export const metadata = {
     card: 'summary_large_image',
     title: 'TableMitra India - Hotel Management System',
     description: 'India\'s leading hotel management system with QR-based service management.',
-    images: ['/images/favicon.png'],
+    images: ['https://www.tablemitra.com/images/favicon.png'],
     creator: '@tablemitra_india',
   },
   alternates: {

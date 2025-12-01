@@ -29,7 +29,7 @@ export const metadata = {
     description: 'India\'s leading hotel management system with QR-based service management. Streamline operations for Indian hotels.',
     images: [
       {
-        url: '/images/og-image.jpg',
+        url: '/images/favicon.png',
         width: 1200,
         height: 630,
         alt: 'TableMitra India Hotel Management System',
@@ -40,7 +40,7 @@ export const metadata = {
     card: 'summary_large_image',
     title: 'TableMitra India - Hotel Management System',
     description: 'India\'s leading hotel management system with QR-based service management.',
-    images: ['/images/twitter-image.jpg'],
+    images: ['/images/favicon.png'],
     creator: '@tablemitra_india',
   },
   alternates: {

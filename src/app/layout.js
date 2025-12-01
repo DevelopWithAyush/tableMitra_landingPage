@@ -5,6 +5,9 @@ import Footer from "@/components/Common/Footer";
 export const metadata = {
   title: "TableMitra India - Hotel Management System | QR Code Ordering for Indian Hotels",
   description: "India's leading hotel management system. Streamline operations for Indian hotels with QR-based service management. Manage in-room dining, housekeeping, laundry, and spa services. Available in Hindi & English.",
+  icons: {
+    icon: '/images/favicon.png',
+  },
   keywords: "hotel management system India, QR code ordering India, Indian hotel technology, hotel operations India, guest services India, restaurant automation India, hotel software India, hospitality management India, hotel POS system India",
   authors: [{ name: "TableMitra India" }],
   creator: "TableMitra India",

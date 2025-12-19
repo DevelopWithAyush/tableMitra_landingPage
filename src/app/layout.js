@@ -23,27 +23,6 @@ export const metadata = {
       'max-snippet': -1,
     },
   },
-  openGraph: {
-    type: 'website',
-    url: 'https://tablemitra.com',
-    title: 'TableMitra – Hotel Management System India',
-    description: 'QR-based hotel service management, in-room dining, housekeeping automation.',
-    images: [
-      {
-        url: 'https://tablemitra.com/images/og-tablemitra.png',
-        width: 1200,
-        height: 630,
-      }
-    ]
-  },
-  twitter: {
-    card: 'summary_large_image',
-    site: '@tablemitra_india',
-    creator: '@tablemitra_india',
-    title: 'TableMitra – Hotel Management System India',
-    description: 'India’s leading QR-based hotel management and in-room dining system.',
-    images: ['https://tablemitra.com/images/og-tablemitra.png']
-  },
   alternates: {
     canonical: 'https://tablemitra.com',
   },

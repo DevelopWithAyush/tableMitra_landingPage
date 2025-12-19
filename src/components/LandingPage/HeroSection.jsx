@@ -13,9 +13,9 @@ const HeroSection = () => {
                         Save time. Serve smarter.
                     </h1>
                 </div>
-                <p className='text-[#4D4D4D] font-inter text-[16px] sm:text-[18px] mt-4 sm:mt-[14px] max-w-full lg:max-w-[582px] text-balance'>
+                <h2 className='text-[#4D4D4D] font-inter text-[16px] sm:text-[18px] mt-4 sm:mt-[14px] max-w-full lg:max-w-[582px] text-balance'>
                     Digitise your entire in-room service flow and deliver faster.In Room Dining . Housekeeping . Laundry
-                </p>
+                </h2>
 
                 <div className='hidden lg:flex flex-row items-center gap-x-3 sm:gap-x-4 lg:gap-x-6 mt-8 lg:mt-10'>
                     <Link href={"https://forms.gle/Hk1ym8o3ZZPD8rvL8"} className='text-[#fff] font-inter text-[14px] sm:text-[16px] font-semibold text-center bg-[#FE5F1E] rounded-[12px] py-[12px] sm:py-[14px] px-4 sm:px-6 whitespace-nowrap'>  

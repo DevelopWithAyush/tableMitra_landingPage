@@ -8,37 +8,43 @@ const Features = () => {
             desc: "In-room dining, housekeeping, laundry, or spa - guests access it all with a single scan. No separate apps, no repeated calls. Every request is logged, routed, and tracked from one dashboard.",
             icon: QrIcon,
             tags: ["In Room Dining", "Housekeeping", "Laundry", "In Room Dining", "Housekeeping", "Laundry"],
-            image: "/images/Container.png"
+            image: "/images/Container.png",
+            alt: "Hotel management system for in-room dining, housekeeping, laundry, and spa requests"
         },
         {
             title: "In-Room Food Ordering",
             desc: "Guests explore your live menu, customize dishes, and order instantly. Orders go straight to the kitchen-no delays, no mix-ups. Update prices, photos, or items anytime in seconds.",
             icon: orderIcon,
             tags: ["Live Menu", "Instant Orders", "Digital Menu"],
-            image: "/images/Container01.png"
+            image: "/images/Container01.png",
+            alt: "QR-based in-room food ordering system with live digital menu for hotels"
         },
         {
             title: "Laundry & Additional Services",
             desc: "From pressing a shirt to booking a spa session, guests can request it all digitally. You'll know exactly who made the request, when it was received, and when it was completed - with full visibility across departments.",
             icon: laundryIcon,
             tags: ["Laundry", "Spa Booking", "Service Tracking"],
-            image: "/images/Container03.jpg"
+            image: "/images/Container03.jpg",
+            alt: "Hotel laundry request and additional services management system with digital tracking"
         },
         {
             title: "Housekeeping Requests",
             desc: "Every housekeeping request is timestamped and assigned automatically, ensuring your staff never miss a turn-down, towel, or cleaning request.",
             icon: housekeepingIcon,
             tags: ["Auto Assign", "Timestamped", "Real-time"],
-            image: "/images/Container04.jpg"
+            image: "/images/Container04.jpg",
+            alt: "Automated hotel housekeeping request tracking and staff assignment system"
         },
         {
             title: "Data-Backed Reporting",
             desc: "Every tap becomes insight. Track peak ordering hours, service response times, staff performance, and guest preferences - all in one dashboard.",
             icon: report,
             tags: ["Analytics", "Performance", "Insights"],
-            image: "/images/Container02.png"
+            image: "/images/Container02.png",
+            alt: "Hotel operations analytics dashboard for tracking performance and service insights"
         }
-    ]
+    ];
+
 
     return (
         <section id='features' className='container mx-auto max-w-[88rem] flex flex-col items-center justify-start gap-y-[40px] sm:gap-y-[50px] lg:gap-y-[60px] px-4 sm:px-6 lg:px-8 pt-[70px] sm:pt-[100px] lg:pt-[150px]'>
@@ -61,7 +67,7 @@ const Features = () => {
                         desc={feature.desc}
                         icon={feature.icon}
                         tags={feature.tags}
-                        image={feature.image}
+                        image={feature.image} alt={feature.alt}
                     />
                 ))}
             </div>
@@ -79,7 +85,8 @@ const Card = ({
     title,
     desc,
     tags,
-    image
+    image,
+    alt
 }) => {
 
     return (
@@ -119,7 +126,7 @@ const Card = ({
             </div>
             <div className={`flex w-full lg:w-1/2 ${isReverse ? "lg:justify-start" : "lg:justify-end"} flex-row items-center`}>
                 <div className='w-full h-full  sm:min-h-[300px]'>
-                    <img src={image} alt="" className='w-full h-full object-cover' />
+                    <img src={image} alt={alt} className='w-full h-full object-cover' />
                 </div>
             </div>
 

@@ -4,6 +4,7 @@ import Link from 'next/link'
 import React, { useState, useEffect } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { usePathname } from 'next/navigation'
+import Image from 'next/image'
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -146,8 +147,13 @@ const Navbar = () => {
         }}
       >
 
-        <Link href={"/"} className='text-[#FE5F1E] font-plusjakartaSans font-bold text-[20px] sm:text-[24px] z-[102]'>
-          TableMitra
+        <Link href={"/"} className='flex flex-row items-center justify-start text-[#FE5F1E] font-plusjakartaSans font-bold text-[20px] sm:text-[24px] z-[102]'>
+          <Image src="/images/favicon.png" alt="TableMitra hotel management system India" width={150} height={40}
+          className='w-8 h-8 inline-block mr-2 object-contain'
+          />
+          <span className=' md:block'>
+            TableMitra
+         </span>
         </Link>
 
         <nav className='hidden lg:block'>
